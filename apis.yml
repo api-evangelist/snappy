@@ -1,8 +1,25 @@
 aid: snappy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/snappy.png
 name: Snappy
-description: 'Snappy is a company surfaced as a portfolio company of ggv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: hr-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Snappy is a corporate gifting platform that lets businesses send curated gifts,
+  branded swag, and recipient-choice collections to employees and customers.
+  Beyond its web app, Snappy publishes a developer API suite that embeds gifting
+  into CRMs, HRIS platforms, and marketing-automation tools, triggering gifts from
+  business events such as recognition moments, loyalty milestones, and sales-pipeline
+  events, with budget controls and approval workflows. It also ships Slack and
+  Microsoft Teams integrations. Backed by GGV Capital; sector hr-tech / corporate gifting.
 url: https://raw.githubusercontent.com/api-evangelist/snappy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +29,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Corporate Gifting
+- Employee Recognition
 - Hr Tech
-apis: []
+- Rewards
+- Gifting API
+- Employee Engagement
+- Swag
+apis:
+- name: Snappy API
+  description: >-
+    Snappy's developer API suite for embedding gifting into business systems and
+    workflows, including an embedded gift marketplace and triggered (event-based) gifting.
+  humanURL: https://docs.snappy.com/welcome-to-snappy-api
+  tags:
+  - Gifting
+  - API
+  properties:
+  - type: Documentation
+    url: https://docs.snappy.com/welcome-to-snappy-api
+  - type: APIReference
+    url: https://docs.snappy.com/welcome-to-snappy-api
+  - type: GettingStarted
+    url: https://docs.snappy.com/pages/quickstart
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +63,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.snappy.com/
+- type: DeveloperPortal
+  url: https://docs.snappy.com/welcome-to-snappy-api
+- type: Documentation
+  url: https://docs.snappy.com/welcome-to-snappy-api
+- type: APIReference
+  url: https://docs.snappy.com/welcome-to-snappy-api
+- type: GettingStarted
+  url: https://docs.snappy.com/pages/quickstart
+- type: Integrations
+  url: https://www.snappy.com/gifting-integrations
+- type: Support
+  url: https://help.snappy.com
+- type: Blog
+  url: https://www.snappy.com/blog
+- type: Pricing
+  url: https://www.snappy.com/pricing
+- type: TermsOfService
+  url: https://snappygifts.notion.site/website-terms-of-use
+- type: PrivacyPolicy
+  url: https://snappygifts.notion.site/privacynotice
+- type: TrustCenter
+  url: https://trust.snappy.com/
+- type: LLMsTxt
+  url: llms/snappy-llms.txt
+- type: DomainSecurity
+  url: security/snappy-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

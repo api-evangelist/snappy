@@ -1,0 +1,32 @@
+<!--
+generated: '2026-07-21'
+method: generated
+source: apis.yml + fetched pages on www.snappy.com and docs.snappy.com
+note: Snappy publishes a real llms.txt at https://docs.snappy.com/llms.txt; a future run should fetch and save it verbatim (method: searched) to upgrade this generated file.
+-->
+# Snappy
+
+> Snappy is a corporate gifting platform that lets businesses send curated gifts, branded swag, and recipient-choice collections to employees and customers. Beyond its web app, Snappy publishes a developer API suite that embeds gifting into CRMs, HRIS platforms, and marketing-automation tools, triggering gifts from business events (recognition, loyalty, sales milestones) with budget controls and approval workflows.
+
+## API Documentation
+- [Welcome to the Snappy API](https://docs.snappy.com/welcome-to-snappy-api): Developer documentation home for the Snappy gifting API suite.
+- [Quickstart](https://docs.snappy.com/pages/quickstart): Getting started with the Snappy API.
+- [Core Concepts and Data Models](https://docs.snappy.com/pages/snappy-core-concepts-and-data-models): Snappy's object model and core concepts.
+- [Embedded Marketplace](https://docs.snappy.com/pages/marketplace-overview): Embedding the Snappy gift marketplace.
+- [Triggered Gifting](https://docs.snappy.com/pages/triggered-gifting-overview): Automate gifts from business events.
+- [Provider llms.txt](https://docs.snappy.com/llms.txt): Snappy's own published llms.txt (fetch verbatim on next run).
+
+## Integrations
+- [Gifting Integrations](https://www.snappy.com/gifting-integrations): Slack, Microsoft Teams, HRIS, CRM and marketing-automation integrations.
+
+## Company
+- [Website](https://www.snappy.com/): Snappy corporate gifting platform.
+- [Pricing](https://www.snappy.com/pricing): Plans and pricing.
+- [Blog](https://www.snappy.com/blog): Company blog.
+- [Help Center](https://help.snappy.com): Support and help documentation.
+- [Trust Center](https://trust.snappy.com/): Security and compliance posture.
+
+## Legal
+- [Terms of Use](https://snappygifts.notion.site/website-terms-of-use): Website terms of use.
+- [Privacy Notice](https://snappygifts.notion.site/privacynotice): Privacy notice.
+- [Cookie Policy](https://snappygifts.notion.site/cookie-policy): Cookie policy.
